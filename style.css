@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  padding: 50px;
+  font-size: 18px;
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.profile-pic {
+  width: 100%;
+  margin-top: -49px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.name-age {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px;
+  color: hsl(227, 10%, 46%);
+}
+
+.name {
+  font-size: 1.2rem;
+  padding: 0 10px;
+  color: hsl(229, 23%, 23%);
+}
+
+.age {
+  font-size: 1.2rem;
+}
+
+.location {
+  font-size: 1rem;
+  color: hsl(227, 10%, 46%);
+  padding-bottom: 20px;
+}
+
+hr {
+  color: hsla(0, 0%, 59%, 0.3);
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px;
+}
+
+.numbers {
+  font-size: 1.2rem;
+  color: hsl(229, 23%, 23%);
+}
+
+.text {
+  padding: 3px;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+  color: hsl(0, 0%, 59%);
+}
